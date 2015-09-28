@@ -21,7 +21,7 @@ class php::params {
       $common_package_suffixes = ['cli', 'common']
       $cli_inifile             = "${config_root}/cli/php.ini"
       $dev_package_suffix      = 'dev'
-      $fpm_pid_file            = '/var/run/php5-fpm.pid',
+      $fpm_pid_file            = '/var/run/php5-fpm.pid'
       $fpm_config_file         = "${config_root}/fpm/php-fpm.conf"
       $fpm_error_log           = '/var/log/php5-fpm.log'
       $fpm_inifile             = "${config_root}/fpm/php.ini"
@@ -86,7 +86,7 @@ class php::params {
       $common_package_suffixes = ['cli', 'common']
       $cli_inifile             = '/etc/php-cli.ini'
       $dev_package_suffix      = 'devel'
-      $fpm_pid_file            = '/var/run/php-fpm/php-fpm.pid',
+      $fpm_pid_file            = '/var/run/php-fpm/php-fpm.pid'
       $fpm_config_file         = '/etc/php-fpm.conf'
       $fpm_error_log           = '/var/log/php-fpm/error.log'
       $fpm_inifile             = '/etc/php.ini'
@@ -110,7 +110,7 @@ class php::params {
       $common_package_suffixes = ['extensions']
       $cli_inifile             = "${config_root}/php-cli.ini"
       $dev_package_suffix      = undef
-      $fpm_pid_file            = '/var/run/php-fpm.pid',
+      $fpm_pid_file            = '/var/run/php-fpm.pid'
       $fpm_config_file         = "${config_root}/php-fpm.conf"
       $fpm_error_log           = '/var/log/php-fpm.log'
       $fpm_inifile             = "${config_root}/php.ini"
