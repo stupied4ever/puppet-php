@@ -56,7 +56,7 @@ class php::params {
       $common_package_suffixes = []
       $cli_inifile             = "${config_root}/cli/php.ini"
       $dev_package_suffix      = 'devel'
-      $fpm_pid_file            = '/var/run/php5-fpm.pid',
+      $fpm_pid_file            = '/var/run/php5-fpm.pid'
       $fpm_config_file         = "${config_root}/fpm/php-fpm.conf"
       $fpm_error_log           = '/var/log/php5-fpm.log'
       $fpm_inifile             = "${config_root}/fpm/php.ini"
