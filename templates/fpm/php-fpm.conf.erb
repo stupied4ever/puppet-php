@@ -22,7 +22,9 @@
 ; Pid file
 ; Note: the default prefix is /var
 ; Default Value: none
-<% if @osfamily == "FreeBSD" %>
+<% if @pid_file %>
+pid = <%= @fpm_pid_file %>
+<% elsif @osfamily == "FreeBSD" %>
 pid = /var/run/php-fpm.pid
 <% elsif @osfamily == "RedHat" %>
 pid = /var/run/php-fpm/php-fpm.pid
